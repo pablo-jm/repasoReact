@@ -7,7 +7,7 @@ const Lista = ({productos}) => {
     return (
         <ul>
             {productos.map((producto) => (
-                <li key={producto.album}>
+                <li key={producto.album} style={{textAlign: "left"}}>
                     {producto.autor} - {producto.album}
                 </li>
                 ))}

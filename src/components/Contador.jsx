@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 function Contador() {
     const [contador, setContador] = useState(0);
 
